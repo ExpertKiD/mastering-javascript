@@ -8,6 +8,12 @@ The standard for JavaScript is ECMAScript. As of 2012, all modern browsers fully
 
 Do not confuse JavaScript with the Java programming language. Both "Java" and "JavaScript" are trademarks or registered trademarks of Oracle in the U.S. and other countries. However, the two programming languages have very different syntax, semantic, and use.
 
+## 2. IDEs for Javascript
+Top 3 free IDEs for Javascript.
+1. [Visual Studio Code](https://code.visualstudio.com/)
+2. [Sublime Text](https://www.sublimetext.com/)
+3. [Visual Studio Community Edition](https://visualstudio.microsoft.com/vs/community/)
+
 ## References
 1. [Mozilla Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
