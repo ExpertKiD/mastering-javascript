@@ -14,6 +14,53 @@ Top 3 free IDEs for Javascript.
 2. [Sublime Text](https://www.sublimetext.com/)
 3. [Visual Studio Community Edition](https://visualstudio.microsoft.com/vs/community/)
 
+## 3. Adding Javascript to a webpage
+A website has mainly three components. HTML, CSS and JS. We can add JS to an html page in below mentioned ways:
+
+### 3.1 Inside the page
+
+In this method, we write the JS inside the ```<script></script>``` tag.
+
+
+**File: index.html**
+```
+<html>
+    <head>
+        <script>
+            // JS here.
+        </script>
+    </head>
+    <body>
+    </body>
+</html>
+```
+
+### 3.2 On a seperate file
+In this approach, we write JS in a seperate file. The file has a .js extension. It is linked using the ```<script></script>``` tag. We use the src attribute of ```<script>``` tag to specify the link to the JS file.
+
+**File: header.js**
+```
+// JS written here
+```
+
+**File: index.html**
+```
+<html>
+    <head>
+        <script src="header.js">
+            // JS here.
+        </script>
+    </head>
+    <body>
+        <script src="header.js">
+            // JS here.
+        </script>
+    </body>
+</html>
+```
+
+**Note: We can add any number of JS files both at top or bottom of the page.**
+
 ## References
 1. [Mozilla Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-
+2. [Javascript Where to](https://www.w3schools.com/js/js_whereto.asp)
